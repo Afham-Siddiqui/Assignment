@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int digit,square,cube;
+   
+   for(digit=1;digit<=10;digit++)
+   
+   {
+       square=digit*digit;
+       cube=digit*digit*digit;
+       
+       cout<<"NUMBER"<<'\t'<<digit<<'\t'<<"SQUARE"<<'\t'<<digit*digit<<'\t'<<"CUBE"<<'\t'<<digit*digit*digit<<endl;
+       
+   }
+}
