@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int digit;
+    for(digit=2;digit<=100;digit++)
+    {
+        cout<<'\n'<<digit++;
+    }
+    return 0;
+}
